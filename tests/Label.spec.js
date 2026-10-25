@@ -21,7 +21,9 @@ test("Labeltest", async ({ page }) => {
 
     console.log("Login form labels are visible");
 
-    await page.locator("//span[normalize-space()='My Info']").click();
+    await page.xpath("//span[normalize-space()='My Info']").click();
+
+    page.close();
 
     
 
