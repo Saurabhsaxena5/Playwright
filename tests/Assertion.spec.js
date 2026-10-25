@@ -67,6 +67,9 @@ test("Assertion Test", async ({ page }) => {
     await searchInput.fill("Admin");
     await expect(searchInput).toHaveValue("Admin");
 
+
+    
+
     await page.close(); 
 
 })
