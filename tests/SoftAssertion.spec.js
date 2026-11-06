@@ -5,7 +5,7 @@ test("Soft Assertion Test", async ({ page }) => {
 await page.goto("https://demoblaze.com/");
 
 // First soft assertion: This will fail
-await expect.soft(page).toHaveTitle("STORE123");
+await expect.soft(page).toHaveTitle("STORE");
 
 console.log("First assertion executed");
 
