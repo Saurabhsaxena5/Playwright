@@ -15,7 +15,7 @@ await page.goto("https://testautomationpractice.blogspot.com/");
 
     // Step 1: Scroll page to bottom
     await page.evaluate(() => {
-    window.scrollTo(0, 500);
+    window.scrollTo(0, 600);
 });
 
 
