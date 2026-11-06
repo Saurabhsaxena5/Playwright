@@ -12,6 +12,7 @@ await page.goto("https://testautomationpractice.blogspot.com/");
 
 //await page.locator("#country").selectOption({ index: 3 });
 
+await page.waitForTimeout(5000);
 
     // Step 1: Scroll page to bottom
     await page.evaluate(() => {
